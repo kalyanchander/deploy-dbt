@@ -2,7 +2,7 @@ name: dbt_production_daily
 
 on:
   schedule:
-    - cron: '25 08 11 * *'
+    - cron: '27 08 11 * *'
 
 jobs:
   dbt_production_daily:
